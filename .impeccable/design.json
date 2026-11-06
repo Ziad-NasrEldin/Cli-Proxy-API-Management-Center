@@ -1,0 +1,388 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-03T06:38:22.348726+00:00",
+  "title": "Design System: API Hub",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "displayName": "Primary",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15% 0.0107 72.60)",
+          "oklch(26% 0.0107 72.60)",
+          "oklch(38% 0.0107 72.60)",
+          "oklch(49% 0.0107 72.60)",
+          "oklch(61% 0.0107 72.60)",
+          "oklch(72% 0.0107 72.60)",
+          "oklch(84% 0.0107 72.60)",
+          "oklch(95% 0.0107 72.60)"
+        ]
+      },
+      "light-page": {
+        "displayName": "Light Page",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0054 95.10)",
+          "oklch(26% 0.0054 95.10)",
+          "oklch(38% 0.0054 95.10)",
+          "oklch(49% 0.0054 95.10)",
+          "oklch(61% 0.0054 95.10)",
+          "oklch(72% 0.0054 95.10)",
+          "oklch(84% 0.0054 95.10)",
+          "oklch(95% 0.0054 95.10)"
+        ]
+      },
+      "light-surface": {
+        "displayName": "Light Surface",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0083 91.48)",
+          "oklch(26% 0.0083 91.48)",
+          "oklch(38% 0.0083 91.48)",
+          "oklch(49% 0.0083 91.48)",
+          "oklch(61% 0.0083 91.48)",
+          "oklch(72% 0.0083 91.48)",
+          "oklch(84% 0.0083 91.48)",
+          "oklch(95% 0.0083 91.48)"
+        ]
+      },
+      "light-hover": {
+        "displayName": "Light Hover",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0099 87.47)",
+          "oklch(26% 0.0099 87.47)",
+          "oklch(38% 0.0099 87.47)",
+          "oklch(49% 0.0099 87.47)",
+          "oklch(61% 0.0099 87.47)",
+          "oklch(72% 0.0099 87.47)",
+          "oklch(84% 0.0099 87.47)",
+          "oklch(95% 0.0099 87.47)"
+        ]
+      },
+      "light-text": {
+        "displayName": "Light Text",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0084 75.25)",
+          "oklch(26% 0.0084 75.25)",
+          "oklch(38% 0.0084 75.25)",
+          "oklch(49% 0.0084 75.25)",
+          "oklch(61% 0.0084 75.25)",
+          "oklch(72% 0.0084 75.25)",
+          "oklch(84% 0.0084 75.25)",
+          "oklch(95% 0.0084 75.25)"
+        ]
+      },
+      "light-secondary-text": {
+        "displayName": "Light Secondary Text",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0132 71.77)",
+          "oklch(26% 0.0132 71.77)",
+          "oklch(38% 0.0132 71.77)",
+          "oklch(49% 0.0132 71.77)",
+          "oklch(61% 0.0132 71.77)",
+          "oklch(72% 0.0132 71.77)",
+          "oklch(84% 0.0132 71.77)",
+          "oklch(95% 0.0132 71.77)"
+        ]
+      },
+      "light-border": {
+        "displayName": "Light Border",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0084 91.49)",
+          "oklch(26% 0.0084 91.49)",
+          "oklch(38% 0.0084 91.49)",
+          "oklch(49% 0.0084 91.49)",
+          "oklch(61% 0.0084 91.49)",
+          "oklch(72% 0.0084 91.49)",
+          "oklch(84% 0.0084 91.49)",
+          "oklch(95% 0.0084 91.49)"
+        ]
+      },
+      "dark-page": {
+        "displayName": "Dark Page",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0043 84.59)",
+          "oklch(26% 0.0043 84.59)",
+          "oklch(38% 0.0043 84.59)",
+          "oklch(49% 0.0043 84.59)",
+          "oklch(61% 0.0043 84.59)",
+          "oklch(72% 0.0043 84.59)",
+          "oklch(84% 0.0043 84.59)",
+          "oklch(95% 0.0043 84.59)"
+        ]
+      },
+      "dark-surface": {
+        "displayName": "Dark Surface",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0065 78.19)",
+          "oklch(26% 0.0065 78.19)",
+          "oklch(38% 0.0065 78.19)",
+          "oklch(49% 0.0065 78.19)",
+          "oklch(61% 0.0065 78.19)",
+          "oklch(72% 0.0065 78.19)",
+          "oklch(84% 0.0065 78.19)",
+          "oklch(95% 0.0065 78.19)"
+        ]
+      },
+      "dark-hover": {
+        "displayName": "Dark Hover",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0071 67.50)",
+          "oklch(26% 0.0071 67.50)",
+          "oklch(38% 0.0071 67.50)",
+          "oklch(49% 0.0071 67.50)",
+          "oklch(61% 0.0071 67.50)",
+          "oklch(72% 0.0071 67.50)",
+          "oklch(84% 0.0071 67.50)",
+          "oklch(95% 0.0071 67.50)"
+        ]
+      },
+      "dark-text": {
+        "displayName": "Dark Text",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0045 78.30)",
+          "oklch(26% 0.0045 78.30)",
+          "oklch(38% 0.0045 78.30)",
+          "oklch(49% 0.0045 78.30)",
+          "oklch(61% 0.0045 78.30)",
+          "oklch(72% 0.0045 78.30)",
+          "oklch(84% 0.0045 78.30)",
+          "oklch(95% 0.0045 78.30)"
+        ]
+      },
+      "dark-secondary-text": {
+        "displayName": "Dark Secondary Text",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0129 75.35)",
+          "oklch(26% 0.0129 75.35)",
+          "oklch(38% 0.0129 75.35)",
+          "oklch(49% 0.0129 75.35)",
+          "oklch(61% 0.0129 75.35)",
+          "oklch(72% 0.0129 75.35)",
+          "oklch(84% 0.0129 75.35)",
+          "oklch(95% 0.0129 75.35)"
+        ]
+      },
+      "dark-border": {
+        "displayName": "Dark Border",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.0112 67.43)",
+          "oklch(26% 0.0112 67.43)",
+          "oklch(38% 0.0112 67.43)",
+          "oklch(49% 0.0112 67.43)",
+          "oklch(61% 0.0112 67.43)",
+          "oklch(72% 0.0112 67.43)",
+          "oklch(84% 0.0112 67.43)",
+          "oklch(95% 0.0112 67.43)"
+        ]
+      },
+      "success": {
+        "displayName": "Success",
+        "role": "semantic",
+        "tonalRamp": [
+          "oklch(15% 0.1491 162.48)",
+          "oklch(26% 0.1491 162.48)",
+          "oklch(38% 0.1491 162.48)",
+          "oklch(49% 0.1491 162.48)",
+          "oklch(61% 0.1491 162.48)",
+          "oklch(72% 0.1491 162.48)",
+          "oklch(84% 0.1491 162.48)",
+          "oklch(95% 0.1491 162.48)"
+        ]
+      },
+      "quota-medium-light": {
+        "displayName": "Quota Medium Light",
+        "role": "semantic",
+        "tonalRamp": [
+          "oklch(15% 0.1538 84.95)",
+          "oklch(26% 0.1538 84.95)",
+          "oklch(38% 0.1538 84.95)",
+          "oklch(49% 0.1538 84.95)",
+          "oklch(61% 0.1538 84.95)",
+          "oklch(72% 0.1538 84.95)",
+          "oklch(84% 0.1538 84.95)",
+          "oklch(95% 0.1538 84.95)"
+        ]
+      },
+      "quota-medium-dark": {
+        "displayName": "Quota Medium Dark",
+        "role": "semantic",
+        "tonalRamp": [
+          "oklch(15% 0.1419 90.95)",
+          "oklch(26% 0.1419 90.95)",
+          "oklch(38% 0.1419 90.95)",
+          "oklch(49% 0.1419 90.95)",
+          "oklch(61% 0.1419 90.95)",
+          "oklch(72% 0.1419 90.95)",
+          "oklch(84% 0.1419 90.95)",
+          "oklch(95% 0.1419 90.95)"
+        ]
+      },
+      "danger": {
+        "displayName": "Danger",
+        "role": "semantic",
+        "tonalRamp": [
+          "oklch(15% 0.1456 30.71)",
+          "oklch(26% 0.1456 30.71)",
+          "oklch(38% 0.1456 30.71)",
+          "oklch(49% 0.1456 30.71)",
+          "oklch(61% 0.1456 30.71)",
+          "oklch(72% 0.1456 30.71)",
+          "oklch(84% 0.1456 30.71)",
+          "oklch(95% 0.1456 30.71)"
+        ]
+      }
+    },
+    "shadows": [
+      {
+        "name": "shared-card-light",
+        "value": "0 1px 2px 0 rgb(0 0 0 / 0.08)",
+        "purpose": "Shared card elevation in the light theme."
+      },
+      {
+        "name": "shared-card-dark",
+        "value": "0 1px 3px 0 rgb(0 0 0 / 0.3)",
+        "purpose": "Shared card elevation in the dark theme."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out-strong",
+        "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "Quota header and provider-tab feedback."
+      },
+      {
+        "name": "dur-press",
+        "value": "160ms",
+        "purpose": "Press feedback."
+      },
+      {
+        "name": "dur-hover",
+        "value": "200ms",
+        "purpose": "Hover feedback."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "quota-two-column-row",
+        "value": "1200px"
+      },
+      {
+        "name": "quota-stacked-row",
+        "value": "760px"
+      },
+      {
+        "name": "quota-two-window-columns",
+        "value": "600px"
+      },
+      {
+        "name": "quota-one-window-column",
+        "value": "340px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "description": "Shared primary control.",
+      "html": "<button class=\"ds-button\">Refresh quotas</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid transparent;border-radius:8px;padding:10px 14px;font:inherit;font-weight:600;cursor:pointer;transition:all 150ms ease}.ds-button:focus-visible{outline:2px solid var(--primary-color);outline-offset:2px}.ds-button:disabled{opacity:.6;cursor:not-allowed}.ds-button{background:var(--primary-color);color:var(--primary-contrast,#fff);border-color:var(--primary-color)}.ds-button:hover:not(:disabled){background:var(--primary-hover);border-color:var(--primary-hover)}",
+      "refersTo": "button-primary"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "description": "Shared secondary control.",
+      "html": "<button class=\"ds-button\">Refresh quotas</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid transparent;border-radius:8px;padding:10px 14px;font:inherit;font-weight:600;cursor:pointer;transition:all 150ms ease}.ds-button:focus-visible{outline:2px solid var(--primary-color);outline-offset:2px}.ds-button:disabled{opacity:.6;cursor:not-allowed}.ds-button{background:var(--bg-tertiary);color:var(--text-primary);border-color:var(--border-color)}.ds-button:hover:not(:disabled){background:var(--bg-hover);border-color:var(--border-hover)}",
+      "refersTo": "button-secondary"
+    },
+    {
+      "name": "Ghost button",
+      "kind": "button",
+      "description": "Shared ghost control.",
+      "html": "<button class=\"ds-button\">Refresh quotas</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid transparent;border-radius:8px;padding:10px 14px;font:inherit;font-weight:600;cursor:pointer;transition:all 150ms ease}.ds-button:focus-visible{outline:2px solid var(--primary-color);outline-offset:2px}.ds-button:disabled{opacity:.6;cursor:not-allowed}.ds-button{background:transparent;color:var(--text-secondary)}.ds-button:hover:not(:disabled){background:var(--bg-tertiary);color:var(--text-primary)}",
+      "refersTo": "button-ghost"
+    },
+    {
+      "name": "Text field",
+      "kind": "input",
+      "description": "Shared text entry with an explicit focus ring.",
+      "html": "<input class=\"ds-input\" aria-label=\"Account search\" placeholder=\"Search accounts\">",
+      "css": ".ds-input{width:100%;border:1px solid var(--border-color);border-radius:8px;padding:10px 12px;background:var(--bg-secondary);color:var(--text-primary);font:inherit;transition:border-color 150ms ease,box-shadow 150ms ease}.ds-input:focus{outline:none;border-color:var(--primary-color);box-shadow:0 0 0 3px rgba(139,134,128,.18)}",
+      "refersTo": "input"
+    },
+    {
+      "name": "Provider navigation",
+      "kind": "nav",
+      "description": "Scrollable provider tabs with an active underline.",
+      "html": "<nav class=\"ds-tabs\" aria-label=\"Provider\"><button class=\"ds-tab\">All</button><button class=\"ds-tab ds-selected\" aria-current=\"page\">Codex</button></nav>",
+      "css": ".ds-tabs{display:flex;gap:2px;overflow-x:auto;border-bottom:1px solid var(--border-color)}.ds-tab{position:relative;flex-shrink:0;border:0;background:none;cursor:pointer;padding:8px 12px 11px;border-radius:8px 8px 0 0;font:inherit;font-size:13px;font-weight:550;color:var(--text-secondary);transition:color 200ms cubic-bezier(.23,1,.32,1),background-color 200ms cubic-bezier(.23,1,.32,1)}.ds-selected{color:var(--text-primary);font-weight:650}.ds-selected:after{content:\"\";position:absolute;left:10px;right:10px;bottom:-1px;height:2px;background:var(--text-primary)}.ds-tab:hover{color:var(--text-primary);background:color-mix(in srgb,var(--bg-tertiary) 55%,transparent)}.ds-tab:focus-visible{outline:2px solid var(--primary-color);outline-offset:-2px}.ds-tab:active{transform:translateY(.5px)}@media(prefers-reduced-motion:reduce){.ds-tab{transition:none}.ds-tab:active{transform:none}}"
+    },
+    {
+      "name": "Count badge",
+      "kind": "chip",
+      "description": "Neutral count beside a provider label.",
+      "html": "<span class=\"ds-count\">5</span>",
+      "css": ".ds-count{font-family:ui-monospace,\"SF Mono\",\"Cascadia Mono\",\"JetBrains Mono\",\"Fira Code\",Menlo,Consolas,\"Liberation Mono\",monospace;font-size:10.5px;font-weight:650;font-variant-numeric:tabular-nums;line-height:1.6;color:var(--text-tertiary);padding:0 6px;border-radius:9999px;background:color-mix(in srgb,var(--text-primary) 6%,transparent)}"
+    },
+    {
+      "name": "Shared card",
+      "kind": "card",
+      "description": "Existing containing surface outside the flat quota rows.",
+      "html": "<section class=\"ds-card\">Account details</section>",
+      "css": ".ds-card{background:var(--bg-primary);color:var(--text-primary);border:1px solid var(--border-color);border-radius:12px;box-shadow:var(--shadow);padding:24px}",
+      "refersTo": "card"
+    },
+    {
+      "name": "Quota window",
+      "kind": "custom",
+      "description": "Explicit capacity with a separate window and reset.",
+      "html": "<div class=\"ds-limit\"><div class=\"ds-label\">Weekly limit</div><div class=\"ds-value\"><strong>84%</strong><span>remaining</span></div><div class=\"ds-track\"><span style=\"width:84%\"></span></div><div class=\"ds-reset\"><span>Resets in 6 days</span><time>Nov 10, 07:40 AM</time></div></div>",
+      "css": ".ds-limit{min-width:0}.ds-label{color:var(--text-secondary);font-size:13px;font-weight:600;line-height:1.4;overflow-wrap:anywhere}.ds-value{display:flex;align-items:baseline;flex-wrap:wrap;gap:7px;margin:5px 0 8px;font-variant-numeric:tabular-nums}.ds-value strong{color:var(--text-primary);font-size:27px;font-weight:650;line-height:1;letter-spacing:-.025em}.ds-value>span{font-size:12px;color:var(--text-secondary)}.ds-track{height:5px;border-radius:3px;background:var(--border-color);overflow:hidden}.ds-track>span{display:block;height:100%;background:var(--success-color);border-radius:inherit}.ds-reset{display:flex;flex-direction:column;gap:2px;margin-top:7px;font-size:12px;line-height:1.4;font-variant-numeric:tabular-nums;overflow-wrap:anywhere;color:var(--text-primary)}.ds-reset time{color:var(--text-secondary)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Account ledger",
+    "overview": "API Hub retains its existing logo and warm neutral light/dark themes. The quota surface uses a compact account ledger: identity, capacity and actions remain easy to compare, with secondary information disclosed on demand. This is a record of the implemented existing-theme design, not a newly selected brand identity.",
+    "keyCharacteristics": [
+      "Warm neutral surfaces with restrained borders.",
+      "Full account identities and explicit quota semantics.",
+      "Compact desktop rows that stack on smaller screens."
+    ],
+    "rules": [
+      {
+        "name": "Meaning Before Color",
+        "body": "Label remaining capacity and each time window explicitly; color supplements the numbers.",
+        "section": "colors"
+      },
+      {
+        "name": "Full Identity",
+        "body": "Account identifiers wrap instead of truncating. Keep the subscription beside the provider metadata.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "Do use the existing API Hub logo and theme variables.",
+      "Do show five-hour and weekly limits separately, with countdown and exact reset time when reported.",
+      "Do keep action feedback visible beside actions while secondary grant details stay collapsed."
+    ],
+    "donts": [
+      "Don't substitute zero for unavailable provider data.",
+      "Don't clip account identities, quota labels or reset times.",
+      "Don't promote provider colors into competing page backgrounds."
+    ]
+  }
+}

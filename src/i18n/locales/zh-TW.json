@@ -58,7 +58,7 @@
   },
   "title": {
     "login": "CLI Proxy API Management Center",
-    "abbr": "CPAMC"
+    "abbr": "API Hub"
   },
   "splash": {
     "title": "CLI Proxy API",
@@ -554,7 +554,6 @@
     "reset_confirm_button": "確認重置",
     "reset_not_confirmed": "尚未確認額度重置成功，請重新整理額度後再決定是否重試。",
     "reset_cooldown_failed": "額度已重置，但代理冷卻清除失敗。請在原連線的認證檔案頁面使用「清除冷卻」，不要再次消耗重置卡。",
-
     "reset_success": "已重置「{{name}}」的 Codex 配額",
     "reset_failed": "重置「{{name}}」的 Codex 配額失敗：{{message}}",
     "plan_plus": "Plus",
@@ -1659,7 +1658,20 @@
     "weekday_wed": "三",
     "weekday_thu": "四",
     "weekday_fri": "五",
-    "weekday_sat": "六"
+    "weekday_sat": "六",
+    "remaining": "剩餘",
+    "unavailable": "無法取得",
+    "plan_unavailable": "方案未知",
+    "resets_relative": "重設：{{time}}",
+    "reset_unavailable": "未提供重設時間",
+    "account_details": "詳情",
+    "hide_details": "收起詳情",
+    "manual_resets": "{{count}} 次手動重設",
+    "refresh": "重新整理",
+    "refresh_account": "重新整理 {{account}}",
+    "reset_timeline": "重設時間軸",
+    "stale": "上次額度 · 需要重新整理",
+    "reset_due": "已到重設時間 · 請重新整理"
   },
   "routing": {
     "title": "路由編排",

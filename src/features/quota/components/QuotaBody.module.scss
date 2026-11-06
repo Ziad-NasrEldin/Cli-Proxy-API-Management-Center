@@ -32,7 +32,7 @@
   font-size: 12.5px;
   font-weight: 600;
   color: var(--text-secondary);
-  @include text-ellipsis;
+  overflow-wrap: anywhere;
 }
 
 /* 遥测：mono + 等宽数字，刷新时数字不跳位 */
@@ -40,7 +40,7 @@
   display: inline-flex;
   align-items: baseline;
   gap: 7px;
-  flex-shrink: 0;
+  flex-wrap: wrap;
   font-family: $font-mono;
   font-size: 11.5px;
   font-variant-numeric: tabular-nums;
@@ -54,19 +54,19 @@
 }
 
 .quotaReset {
-  color: var(--text-quaternary);
+  color: var(--text-secondary);
 }
 
 /* Countdown beside the absolute reset time. The separator is a pseudo-element
    so the two spans stay independently styleable (the relative half turns
    warning-coloured when this is the row that recovers first). */
 .quotaResetRelative {
-  color: var(--text-tertiary);
+  color: var(--text-secondary);
 
   &::before {
     content: '·';
     margin: 0 4px;
-    color: var(--text-quaternary);
+    color: var(--text-secondary);
   }
 }
 
@@ -87,7 +87,7 @@
   font-family: $font-mono;
   font-size: 11.5px;
   line-height: 1.5;
-  color: var(--text-tertiary);
+  color: var(--text-secondary);
   text-align: center;
   padding: 6px 4px;
 }
@@ -106,13 +106,7 @@
 .quotaBarFill {
   height: 100%;
   border-radius: $radius-full;
-  /* 刷新时平滑重定向到新水位（可中断） */
-  transition: width 360ms var(--ease-out-strong, ease);
-  /* 数据到达是本页的高潮时刻：水位逐行铺开（每行 40ms 级差）。
-   * 走 scaleX 而非 width，避免与上面的 width 过渡互相抢夺同一属性。 */
-  transform-origin: left center;
-  animation: quota-meter-fill 480ms var(--ease-out-strong, ease-out) both;
-  animation-delay: calc(var(--meter-index, 0) * 40ms);
+
 }
 
 @keyframes quota-meter-fill {
@@ -160,13 +154,13 @@
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: var(--text-tertiary);
+  color: var(--text-secondary);
 }
 
 .antigravityQuotaGroupDescription {
   font-size: 11px;
   line-height: 1.4;
-  color: var(--text-quaternary);
+  color: var(--text-secondary);
 }
 
 @include mobile {
@@ -214,7 +208,7 @@
 }
 
 .codexPlanLabel {
-  color: var(--text-tertiary);
+  color: var(--text-secondary);
   flex: 0 0 auto;
 }
 
@@ -260,7 +254,7 @@
 }
 
 .codexResetCreditLabel {
-  color: var(--text-tertiary);
+  color: var(--text-secondary);
   flex: 0 1 auto;
   min-width: 0;
   overflow-wrap: anywhere;
@@ -703,5 +697,35 @@
     &::before {
       content: none;
     }
+  }
+}
+
+/* Detailed observations use the same quiet hierarchy as the account rows. */
+.quotaRowHeader {
+  flex-wrap: wrap;
+}
+.quotaMeta {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.codexPlan {
+  flex-wrap: wrap;
+}
+.premiumPlanValue,
+.elitePlanValue,
+:global([data-theme='dark']) .premiumPlanValue,
+:global([data-theme='dark']) .elitePlanValue {
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+  color: var(--text-primary);
+  box-shadow: none;
+  text-shadow: none;
+  animation: none;
+  padding: 2px 7px;
+  white-space: normal;
+  &::before,
+  &::after {
+    content: none;
   }
 }

@@ -30,16 +30,16 @@ interface BatchFetchResult {
 export function useQuotaBatchLoader() {
   const { t } = useTranslation();
   const [batchLoading, setBatchLoading] = useState(false);
-  const loadingRef = useRef(false);
+  const loadingRef = useRef<number | null>(null);
   const requestIdRef = useRef(0);
 
   const loadQuota = useCallback(
     async (targets: QuotaFileEntry[]) => {
-      if (loadingRef.current) return;
-      if (targets.length === 0) return;
-      loadingRef.current = true;
-      const requestId = ++requestIdRef.current;
       const cacheGeneration = captureQuotaCacheGeneration();
+      if (loadingRef.current === cacheGeneration.cacheGeneration) return;
+      if (targets.length === 0) return;
+      loadingRef.current = cacheGeneration.cacheGeneration;
+      const requestId = ++requestIdRef.current;
       setBatchLoading(true);
 
       try {
@@ -118,7 +118,7 @@ export function useQuotaBatchLoader() {
       } finally {
         if (requestId === requestIdRef.current) {
           setBatchLoading(false);
-          loadingRef.current = false;
+          loadingRef.current = null;
         }
       }
     },

@@ -58,7 +58,7 @@
   },
   "title": {
     "login": "CLI Proxy API 관리 센터",
-    "abbr": "CPAMC"
+    "abbr": "API Hub"
   },
   "splash": {
     "title": "CLI Proxy API",
@@ -1632,7 +1632,20 @@
     "weekday_wed": "수",
     "weekday_thu": "목",
     "weekday_fri": "금",
-    "weekday_sat": "토"
+    "weekday_sat": "토",
+    "remaining": "남음",
+    "unavailable": "확인 불가",
+    "plan_unavailable": "요금제 확인 불가",
+    "resets_relative": "초기화 {{time}}",
+    "reset_unavailable": "초기화 시간 없음",
+    "account_details": "상세 정보",
+    "hide_details": "상세 정보 숨기기",
+    "manual_resets": "수동 초기화 {{count}}회",
+    "refresh": "새로고침",
+    "refresh_account": "{{account}} 새로고침",
+    "reset_timeline": "초기화 일정",
+    "stale": "이전 할당량 · 새로고침 필요",
+    "reset_due": "초기화 예정 · 새로고침"
   },
   "routing": {
     "title": "라우팅",

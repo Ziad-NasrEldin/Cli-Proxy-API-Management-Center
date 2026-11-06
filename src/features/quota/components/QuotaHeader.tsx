@@ -1,6 +1,5 @@
 import { useTranslation } from 'react-i18next';
 import { IconRefreshCw } from '@/components/ui/icons';
-import { useCountUp } from '@/hooks/motion';
 import styles from './QuotaHeader.module.scss';
 
 export type QuotaHeaderProps = {
@@ -24,15 +23,12 @@ export function QuotaHeader(props: QuotaHeaderProps) {
     props;
   const { t } = useTranslation();
   // 批量结果陆续落地时，「已加载」是页面上唯一滚动的数字
-  const displayLoadedCount = useCountUp(loadedCount);
 
   return (
     <header className={styles.header}>
       <div className={styles.copy}>
-        <h1 className={styles.title} data-reveal>
-          {t('quota_management.title')}
-        </h1>
-        <p className={styles.meta} data-reveal>
+        <h1 className={styles.title}>{t('quota_management.title')}</h1>
+        <p className={styles.meta}>
           <span className={styles.metaTotal}>
             {t('quota_management.meta_credentials', { count: totalCount })}
           </span>
@@ -40,7 +36,7 @@ export function QuotaHeader(props: QuotaHeaderProps) {
             ·
           </span>
           <span className={loadedCount > 0 ? styles.metaLoaded : styles.metaMuted}>
-            {t('quota_management.meta_loaded', { count: displayLoadedCount })}
+            {t('quota_management.meta_loaded', { count: loadedCount })}
           </span>
           {attentionCount > 0 && (
             <>
@@ -54,7 +50,7 @@ export function QuotaHeader(props: QuotaHeaderProps) {
           )}
         </p>
       </div>
-      <div className={styles.actions} data-reveal>
+      <div className={styles.actions}>
         <button
           type="button"
           className={styles.primaryAction}

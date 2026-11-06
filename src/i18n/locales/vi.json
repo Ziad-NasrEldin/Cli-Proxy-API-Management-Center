@@ -58,7 +58,7 @@
   },
   "title": {
     "login": "Trung tâm Quản lý CLI Proxy API",
-    "abbr": "CPAMC"
+    "abbr": "API Hub"
   },
   "splash": {
     "title": "CLI Proxy API",
@@ -1588,7 +1588,20 @@
     "search_placeholder": "Tìm theo tên file hoặc email",
     "search_empty_title": "Không có tài khoản phù hợp",
     "search_empty_desc": "Hãy thử tên file hoặc email khác, hoặc xóa tìm kiếm.",
-    "search_clear": "Xóa tìm kiếm"
+    "search_clear": "Xóa tìm kiếm",
+    "remaining": "còn lại",
+    "unavailable": "Không khả dụng",
+    "plan_unavailable": "Chưa rõ gói",
+    "resets_relative": "Đặt lại {{time}}",
+    "reset_unavailable": "Chưa có thời gian đặt lại",
+    "account_details": "Chi tiết",
+    "hide_details": "Ẩn chi tiết",
+    "manual_resets": "{{count}} lượt đặt lại thủ công",
+    "refresh": "Làm mới",
+    "refresh_account": "Làm mới {{account}}",
+    "reset_timeline": "Lịch đặt lại",
+    "stale": "Hạn mức cũ · cần làm mới",
+    "reset_due": "Đến giờ đặt lại · làm mới"
   },
   "routing": {
     "title": "Định tuyến",

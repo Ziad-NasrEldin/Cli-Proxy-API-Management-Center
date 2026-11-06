@@ -58,7 +58,7 @@
   },
   "title": {
     "login": "CLIProxyAPI Yönetim Merkezi",
-    "abbr": "CPAMC"
+    "abbr": "API Hub"
   },
   "splash": {
     "title": "CLIProxyAPI",
@@ -1632,7 +1632,20 @@
     "weekday_wed": "Çar",
     "weekday_thu": "Per",
     "weekday_fri": "Cum",
-    "weekday_sat": "Cmt"
+    "weekday_sat": "Cmt",
+    "remaining": "kalan",
+    "unavailable": "Kullanılamıyor",
+    "plan_unavailable": "Plan bilinmiyor",
+    "resets_relative": "Sıfırlama {{time}}",
+    "reset_unavailable": "Sıfırlama bildirilmedi",
+    "account_details": "Ayrıntılar",
+    "hide_details": "Ayrıntıları gizle",
+    "manual_resets": "{{count}} manuel sıfırlama",
+    "refresh": "Yenile",
+    "refresh_account": "{{account}} hesabını yenile",
+    "reset_timeline": "Sıfırlama takvimi",
+    "stale": "Son kota · yenileme gerekiyor",
+    "reset_due": "Sıfırlama zamanı · yenileyin"
   },
   "routing": {
     "title": "Yönlendirme",

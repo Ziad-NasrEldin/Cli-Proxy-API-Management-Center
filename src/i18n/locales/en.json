@@ -58,7 +58,7 @@
   },
   "title": {
     "login": "CLI Proxy API Management Center",
-    "abbr": "CPAMC"
+    "abbr": "API Hub"
   },
   "splash": {
     "title": "CLI Proxy API",
@@ -1589,17 +1589,17 @@
   },
   "quota_management": {
     "search_label": "Search accounts",
-    "search_placeholder": "Search by filename or email",
+    "search_placeholder": "Search accounts",
     "search_empty_title": "No matching accounts",
     "search_empty_desc": "Try another filename or email, or clear the search.",
     "search_clear": "Clear search",
-    "title": "Quota Management",
+    "title": "Quotas",
     "description": "Monitor OAuth quota status for Antigravity, Codex, Claude, Kimi, and xAI credentials.",
-    "refresh_all_credentials": "Refresh all credentials",
+    "refresh_all_credentials": "Refresh quotas",
     "sort_label": "Sort",
     "sort_default": "Default",
     "sort_soonest": "Soonest recovery",
-    "meta_credentials": "{{count}} credentials",
+    "meta_credentials": "{{count}} accounts",
     "meta_loaded": "{{count}} loaded",
     "meta_attention": "{{count}} need attention",
     "empty_title": "No quota-capable credentials",
@@ -1632,7 +1632,20 @@
     "weekday_wed": "Wed",
     "weekday_thu": "Thu",
     "weekday_fri": "Fri",
-    "weekday_sat": "Sat"
+    "weekday_sat": "Sat",
+    "remaining": "remaining",
+    "unavailable": "Unavailable",
+    "plan_unavailable": "Plan unavailable",
+    "resets_relative": "Resets {{time}}",
+    "reset_unavailable": "Reset not reported",
+    "account_details": "Details",
+    "hide_details": "Hide details",
+    "manual_resets": "Manual resets: {{count}}",
+    "refresh": "Refresh",
+    "refresh_account": "Refresh {{account}}",
+    "reset_timeline": "Reset timeline",
+    "stale": "Last known quota · refresh needed",
+    "reset_due": "Reset due · refresh"
   },
   "routing": {
     "title": "Routing",

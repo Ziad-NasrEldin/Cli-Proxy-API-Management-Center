@@ -85,7 +85,7 @@
   appearance: none;
 
   &::placeholder {
-    color: var(--text-tertiary);
+    color: var(--text-secondary);
   }
 
   &::-webkit-search-cancel-button,
@@ -188,10 +188,27 @@
  * 与认证文件页配额模式（.gridQuota）同一档。 */
 
 .grid {
-  display: grid;
-  gap: 16px;
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr));
-  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+}
+.timelineDisclosure {
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+.timelineDisclosure > summary {
+  width: fit-content;
+  padding: 10px 0;
+  cursor: pointer;
+}
+.timelineDisclosure > summary:focus-visible {
+  outline: 2px solid var(--text-primary);
+  outline-offset: 3px;
+}
+.timelineDisclosure[open] > summary {
+  margin-bottom: 12px;
 }
 
 /* ---------- 分页 ---------- */
@@ -209,7 +226,7 @@
   font-size: 12px;
   font-variant-numeric: tabular-nums;
   letter-spacing: 0.02em;
-  color: var(--text-tertiary);
+  color: var(--text-secondary);
   white-space: nowrap;
 }
 
